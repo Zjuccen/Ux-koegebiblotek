@@ -3,3 +3,75 @@
     padding: 0;
     margin: 0;
 }
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 0 10rem;
+    z-index: 999;
+    background-color: white;
+}
+
+.logo img{
+    width: 8rem;
+}
+
+.aabningstider, .logind {
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.aabningstider {
+    background-color: #d1d1d1;
+    transition: .5s;
+}
+
+.aabningstider:hover {
+    background-color: #79BA00;
+}
+
+.logind {
+    background-color: #79BA00;
+    transition: .5s;
+}
+
+.logind:hover {
+    background-color: #505050;
+    color: white;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 0 10rem;
+    box-shadow: 0 8px 8px rgba(32, 32, 32, 0.3);
+}
+
+.pri-nav {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.pri-nav:hover {
+    
+}
