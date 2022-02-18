@@ -168,8 +168,7 @@ form.example input[type=text] {
 
 /* ----- Chat box kode start ----- */
 .btn {
-    display: flex;
-    justify-content: end;
+    float: right;
     margin-top: 175px;
 }  
 
@@ -182,7 +181,7 @@ form.example input[type=text] {
       display: flex;
       float: right;
       margin-top: 30px;
-      margin-right: 20px;
+      margin-left: 72.5rem; ;
 
   }
 
@@ -272,7 +271,8 @@ label {
 
 
 .nyheder {
-    display: block;
+    display: flex;
+    flex-direction: column;
     padding: 0 150px;
     margin-top: 30px;
 }
@@ -289,7 +289,7 @@ label {
   .parent {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     }
@@ -303,3 +303,19 @@ label {
     .div3 { grid-area: 3 / 3 / 6 / 5; }
     .div4 { grid-area: 3 / 5 / 6 / 7; }
     .div5 { grid-area: 3 / 7 / 6 / 9; }
+
+    .div2, .div3, .div4, .div5 img {
+        max-height: 155px;
+    }
+
+    .btn-vidre {
+        background-color: #79BA00;
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+    }
+
+.arrangementer {
+    margin: 40px 150px;
+}
+
