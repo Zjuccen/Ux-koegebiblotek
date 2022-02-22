@@ -3,6 +3,11 @@
     padding: 0;
     margin: 0;
     font-family: Helvetica, sans-serif;
+    
+}
+
+body {
+    overflow-x: hidden;
 }
 
 header {
@@ -309,7 +314,7 @@ label {
 }
 
 .div1 img {
-    height: 400px;
+    height: 450px;
 }
 
 .div1 {
@@ -336,7 +341,7 @@ label {
 .div3,
 .div4,
 .div5 img {
-    max-height: 155px;
+    max-height: 200px;
 }
 
 .btn-vidre {
@@ -344,6 +349,7 @@ label {
     padding: 10px;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
 }
 
 .arrangementer {
@@ -363,13 +369,17 @@ label {
 .eboeger-top {
     display: flex;
     flex-direction: column;
-    margin-top: 200px;
+    margin-top: 50px;
     justify-content: center;
     align-content: center;
-    margin-left: 175px;
-    margin-right: 175px;
+    margin-left: 100px;
+    margin-right: 100px;
     padding-top: 20px;
     margin-bottom: 10px;
+}
+
+.eboeger-top h2 {
+    margin-bottom: 1rem;
 }
 
 .eboeger-top img {
@@ -423,6 +433,43 @@ label {
 .liste-content a {
     text-decoration: none;
     color: #000000;
+}
+
+/* ----- ebøger slut ----- */ 
+
+/* ----- læring start ----- */ 
+
+.learing-topbar {
+    margin-top: 188px;
+    width: 100%;
+    margin-right: px;
+}
+.learing-topbar img {
+    height: 60px;
+    width: 1500px;
+    margin-left: -40px;
+    border: solid #000000 2px;
+}
+
+.laering-titel {
+    text-align: center;
+    margin: 20px;
+}
+
+.laering-content {
+    margin: 0 175px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.laering-content div {
+    height: 350px;
+}
+
+.laering-content img {
+    width: 400px;
+    height: 250px;
 }
 
 
