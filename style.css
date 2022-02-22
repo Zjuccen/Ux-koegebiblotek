@@ -12,7 +12,7 @@ header {
     top: 0;
 }
 
-.topbar{
+.topbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,11 +21,12 @@ header {
     z-index: 999;
 }
 
-.logo img{
+.logo img {
     width: 8rem;
 }
 
-.aabningstider, .logind {
+.aabningstider,
+.logind {
     padding: 0.5rem 1.5rem;
     border-radius: 5px;
     text-decoration: none;
@@ -81,7 +82,8 @@ nav a {
     font-weight: bold;
 }
 
-.pri-nav a:hover, .sec-nav a:hover  {
+.pri-nav a:hover,
+.sec-nav a:hover {
     color: #ffffff;
 }
 
@@ -96,7 +98,7 @@ nav a {
     padding: .3rem 0;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
 .soegefelt {
@@ -108,7 +110,7 @@ nav a {
     margin-right: 125px;
 }
 
-.some img{
+.some img {
     width: 30px;
     float: left;
     height: 30px;
@@ -128,9 +130,9 @@ form.example input[type=text] {
     width: 70%;
     background: #f1f1f1;
     border-radius: 5px 0 0 5px;
-  }
+}
 
-  form.example select{
+form.example select {
     float: left;
     width: 20%;
     padding: 9.6px;
@@ -139,10 +141,10 @@ form.example input[type=text] {
     border: 1px solid grey;
     border-left: none;
     cursor: pointer;
-    transition: .5s;    
+    transition: .5s;
 }
 
-  form.example button {
+form.example button {
     float: left;
     width: 10%;
     padding: 10px;
@@ -154,78 +156,90 @@ form.example input[type=text] {
     cursor: pointer;
     border-radius: 0 5px 5px 0px;
     transition: .5s;
-  }
-  
-  form.example button:hover {
+}
+
+form.example button:hover {
     background: #0b7dda;
-  }
-  
-  form.example::after {
+}
+
+form.example::after {
     content: "";
     clear: both;
     display: table;
-  }
+}
 
 /* ----- Chat box kode start ----- */
 .btn {
     float: right;
     margin-top: 175px;
-}  
-
-  .myBtn{
-      position: fixed;
-      padding: 15px 20px;
-      border-radius: 20px;
-      background-color: #79BA00;
-      border: none;
-      display: flex;
-      float: right;
-      margin-top: 30px;
-      margin-left: 72.5rem; ;
-
-  }
-
-  .modal {
-    float: right;
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-  
-  /* Modal Content/Box */
-  .modal-content {
+
+.myBtn {
+    position: fixed;
+    padding: 15px 20px;
+    border-radius: 20px;
+    background-color: #79BA00;
+    border: none;
+    display: flex;
+    float: right;
+    margin-top: 30px;
+    margin-left: 72.5rem;
+    ;
+
+}
+
+.modal {
+    float: right;
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
     background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
+    margin: 15% auto;
+    /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
-  }
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+}
 
-  .modal-content h2 {
-      margin-top: 20px;
-  }
-  
-  /* The Close Button */
-  .close {
+.modal-content h2 {
+    margin-top: 20px;
+}
+
+/* The Close Button */
+.close {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
+}
+
+.close:hover,
+.close:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
-  }
-  .contakt {
+}
+
+.contakt {
     color: #ffffff;
     padding: 1rem;
 }
@@ -286,89 +300,129 @@ label {
     padding: 0 5px;
 }
 
-  .parent {
+.parent {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    }
+}
 
-    .div1 img {
-        height: 400px;
-    }
+.div1 img {
+    height: 400px;
+}
 
-    .div1 { grid-area: 1 / 1 / 3 / 9; }
-    .div2 { grid-area: 3 / 1 / 6 / 3; }
-    .div3 { grid-area: 3 / 3 / 6 / 5; }
-    .div4 { grid-area: 3 / 5 / 6 / 7; }
-    .div5 { grid-area: 3 / 7 / 6 / 9; }
+.div1 {
+    grid-area: 1 / 1 / 3 / 9;
+}
 
-    .div2, .div3, .div4, .div5 img {
-        max-height: 155px;
-    }
+.div2 {
+    grid-area: 3 / 1 / 6 / 3;
+}
 
-    .btn-vidre {
-        background-color: #79BA00;
-        padding: 10px;
-        border-radius: 10px;
-        border: none;
-    }
+.div3 {
+    grid-area: 3 / 3 / 6 / 5;
+}
 
-    .arrangementer {
-        margin: 40px 150px;
-        display: flex;
-        flex-direction: column;
-    }
+.div4 {
+    grid-area: 3 / 5 / 6 / 7;
+}
+
+.div5 {
+    grid-area: 3 / 7 / 6 / 9;
+}
+
+.div2,
+.div3,
+.div4,
+.div5 img {
+    max-height: 155px;
+}
+
+.btn-vidre {
+    background-color: #79BA00;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.arrangementer {
+    margin: 40px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.arrangement-content img {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+
+/* ----- Ebøger start ----- */
+
+.eboeger-top {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    justify-content: center;
+    align-content: center;
+    margin-left: 175px;
+    margin-right: 175px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.eboeger-top img {
+    height: 300px;
+    width: 100%;
+}
+
+.kategorier {
+    display: flex;
+    justify-content: center;
+    padding: 0px 175px;
+    flex-wrap: wrap;
+    row-gap: 2px;
+    column-gap: 2px;
+    margin: 30px 0;
+}
+
+.kategorier a {
+    background-color: #79BA00;
+    padding: 20px 40px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.eboeger-liste{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.liste-content {
+    margin-bottom: 10px;
+    width: 25%;
+    height: 160px;
+    padding: 10px 100px;
     
-    .arrangement-content img{
-        width: 300px;
-        height: 300px;
-        padding: 10px;
-    }
+    text-overflow: ellipsis;
+}
 
-    .eboeger-top{
-        display: flex;
-        flex-direction: column;
-        margin-top: 200px;
-        justify-content: center;
-        align-content: center;
-        margin-left: 175px;
-        margin-right: 175px;
-        padding-top: 20px;
-        margin-bottom: 10px;
-    }
-    
-    .eboeger-top img {
-        height: 300px;
-        width: 100%;
-    }
-    
-    .kategorier {
-        display: flex;
-        justify-content: center;
-        padding: 0px 175px;
-        flex-wrap: wrap;
-        row-gap: 2px;
-        column-gap: 2px;
-        margin: 30px 0;
-    }
-    
-    .kategorier a{
-        background-color: #79BA00;
-        padding: 20px 40px;
-        color: #000000;
-        text-decoration: none;
-    }
-        
+.liste-content li {
+    list-style-type:none;
+    padding-top: 15px;
+}
+
+.liste-content a {
+    text-decoration: none;
+    color: #000000;
+}
 
 
-
-
-
-
-
-    /* ----- Footer start ----- */
+/* ----- Footer start ----- */
 
 footer {
     height: 340px;
@@ -394,6 +448,7 @@ ul.menu {
     background-color: #262626;
     color: #ffffff;
 }
+
 .footer-inner {
     max-width: 1124px;
     margin-left: auto;
@@ -418,7 +473,7 @@ ul.menu {
 }
 
 .footer-inner>.panel-pane .pane-title {
-    font-family: FaktPro-SemiBold,sans-serif;
+    font-family: FaktPro-SemiBold, sans-serif;
     font-size: 18px;
     line-height: 24px;
     pointer-events: none;
@@ -429,4 +484,3 @@ ul.menu {
 }
 
 /* ----- Footer stop ----- */
-
