@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
 
     <header>
@@ -67,200 +69,228 @@
         </div>
 
     </header>
-    
+
     <div class="learing-topbar">
         <img src="./img/laering-farveboeger.png" alt="">
     </div>
 
-    <section class="laering-titel">
-    <h2>Studerende</h2>
-    </section>
+    <div class="btn-laering">
+        <button id="myBtn" class="myBtn">Chat</button>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Bibloteksvagten</h2>
+                <p>din hotline og genvej til bedre viden</p>
 
-    <section class="laering-content">
-        
+                <div class="contakt-container">
+                    <form class="contakt-info" action="action_page.php">
 
-        <div> 
-            <a href="#udskoling"><img src="./img/laering-udskoling.jpg" alt=""></a>
-            <h3>Udskoling</h3>
-            <p>Folkeskolens ældste klasser</p>
-        </div>
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your First Name..">
 
-        <div>
-            <a href="#ungdom"><img src="./img/laering-ungdoms.jpg" alt=""></a>
-            <h3>Gymnasiale Uddannelser</h3>
-        </div>
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your Last Name..">
 
-        <div>
-            <a href=""><img src="./img/laering-vidregaaende.jpg" alt=""></a>
-            <h3>Vidregående Uddannelser</h3>
-        </div>
+                        <label for="country">Country</label>
+                        <select name="country" id="country">
+                            <option value="Danmark">Danmark</option>
+                            <option value="England">England</option>
+                            <option value="Germany">Germany</option>
+                            <option value="Norway">Norway</option>
+                            <option value="Sweden">Sweden</option>
+                            <option value="Usa">Usa</option>
+                        </select>
 
-        <div>
-            <a href=""><img src="./img/laering-kursus.jpg" alt=""></a>
-            <h3>Diverse Kurser</h3>
-        </div>
-
-    </section>
-
-    <footer class="footer">
-        <div class="footer-inner">
-            <div class="panel-pane pane-block pane-menu-menu-footer-menu-1 attachment-first">
-                <div class="panel-pane-inner">
-
-                    <h2 class="pane-title">Det kan du på biblioteket</h2>
-
-
-                    <div class="pane-content">
-                        <ul class="menu">
-                            <li class="first leaf"><a href="https://www.koegebib.dk/aflevere-efter-lukketid"
-                                    title="Aflevere efter lukketid" class="menu-item"><span>Aflevere efter
-                                        lukketid</span></a></li>
-                            <li class="leaf"><a
-                                    href="https://www.koegebib.dk/nyheder/skoenlitteratur/bestil-boeger-til-din-laeseklub"
-                                    title="Bestil bøger til din læseklub" class="menu-item"><span>Bestille bøger til
-                                        din læseklub</span></a></li>
-                            <li class="leaf"><a href="https://www.koegebib.dk/lokalhistorisk-arkiv"
-                                    title="Besøge Lokalhistorisk Arkiv" class="menu-item"><span>Besøge
-                                        Lokalhistorisk Arkiv</span></a></li>
-                            <li class="leaf"><a href="/moedelokale"
-                                    title="På bibliotekerne i Borup og Herfølge kan du låne et mødelokale"
-                                    class="menu-item"><span>Booke et mødelokale</span></a></li>
-                            <li class="leaf"><a href="/computer-internet"
-                                    title="Du kan reservere en computer til brug i en halv til hel time pr. dag på bibliotekerne i Borup, Herfølge og Køge"
-                                    class="menu-item"><span>Bruge en computer</span></a></li>
-                            <li class="leaf"><a href="/borgerservice-light"
-                                    title="Hos Borgerservice Light på Borup Bibliotek kan du forny dit pas og kørekort"
-                                    class="menu-item"><span>Forny pas og kørekort</span></a></li>
-                            <li class="leaf"><a href="/print-og-scanner"
-                                    title="Mod et mindre beløb kan du printe og scanne dokumenter på bibliotekerne i Borup, Herfølge og Køge"
-                                    class="menu-item"><span>Printe og scanne</span></a></li>
-                            <li class="leaf"><a href="/borgerservice-light"
-                                    title="På Borup Bibliotek kan du købe fiskekort til Kimmerslev Sø og Dalby Sø"
-                                    class="menu-item"><span>Købe fiskekort</span></a></li>
-                            <li class="leaf"><a href="/traadloest-netvaerk"
-                                    title="Der er wi-fi på bibliotekerne i Borup, Herfølge og Køge"
-                                    class="menu-item"><span>Logge på trådløst netværk</span></a></li>
-                            <li class="leaf"><a href="/node/2501"
-                                    title="Du kan låne bibliotekets lokaler til et arrangement eller møde"
-                                    class="menu-item"><span>Låne dit bibliotek</span></a></li>
-                            <li class="leaf"><a href="/selvbetjent-bibliotek"
-                                    title="Bibliotekerne i Borup og Herfølge har åben for selvbetjening kl. 7-23 alle ugens dage"
-                                    class="menu-item"><span>Låse dig ind morgen og aften</span></a></li>
-                            <li class="last leaf"><a href="https://www.koegebib.dk/folkelab"
-                                    title="Nye aktiviteter på biblioteket" class="menu-item"><span>Prøve idéer af i
-                                        Folkelab</span></a></li>
-                        </ul>
-                    </div>
-
-
-                </div>
-            </div>
-            <div class="panel-pane pane-block pane-menu-menu-footer-menu-2 attachment-second">
-                <div class="panel-pane-inner">
-
-                    <h2 class="pane-title">Det kan du hjemmefra</h2>
-
-
-                    <div class="pane-content">
-                        <ul class="menu">
-                            <li class="first leaf"><a href="https://bibliotek.dk/da"
-                                    title="Prøv bibliotek.dk, hvis KøgeBibliotekerne ikke har, hvad du søger"
-                                    class="menu-item"><span>Bestille fra andre biblioteker</span></a></li>
-                            <li class="leaf"><a href="/boedetakster"
-                                    title="Du kan betale dine bøder med Dankort via vores hjemmeside"
-                                    class="menu-item"><span>Betale bøder</span></a></li>
-                            <li class="leaf"><a
-                                    href="https://www.koegebib.dk/nyheder/nyt-om-biblioteket/du-kan-forny-dine-laan-7-dage-inden-afleveringsfristen-hvis"
-                                    title="Hvis materialet ikke er reserveret, kan du forlænge dit lån op til 2 gange"
-                                    class="menu-item"><span>Forny dine lån</span></a></li>
-                            <li class="leaf"><a href="/sms"
-                                    title="Du kan få en SMS eller mail et par dage inden, at du skal aflevere lånte materialer"
-                                    class="menu-item"><span>Få SMS/mail om aflevering</span></a></li>
-                            <li class="leaf"><a href="/hold-din-plads-i-koeen"
-                                    title="Er du forhindret i at komme på biblioteket, kan du sætte dine reserveringer i bero, så du undgår at komme bagerst i køen igen"
-                                    class="menu-item"><span>Holde din plads i køen</span></a></li>
-                            <li class="leaf"><a href="https://www.koegebib.dk/eboeger"
-                                    title="Du kan låne ebøger på både eReolen.dk, eBib.dk og Ebrary"
-                                    class="menu-item"><span>Låne e-bøger</span></a></li>
-                            <li class="leaf"><a href="https://www.koegebib.dk/nyt-paa-hylderne"
-                                    title="Reservere nye bøger m.m." class="menu-item"><span>Reservere nye bøger
-                                        m.m.</span></a></li>
-                            <li class="leaf"><a href="http://biblioteksvagten.dk/"
-                                    title="Få svar på konkrete spørgsmål om alt mellem himmel og jord."
-                                    class="menu-item"><span>Spørge Biblioteksvagten</span></a></li>
-                            <li class="last leaf"><a href="https://www.koegebib.dk/e-materialer"
-                                    title="Vi giver dig adgang til mange databaser, som du kan logge dig ind på hjemme ved din egen computer"
-                                    class="menu-item"><span>Søge i databaser</span></a></li>
-                        </ul>
-                    </div>
-
-
-                </div>
-            </div>
-            <div class="panel-pane pane-block pane-menu-menu-footer-menu-4 attachment-fourth">
-                <div class="panel-pane-inner">
-
-                    <h2 class="pane-title">Praktisk information</h2>
-
-
-                    <div class="pane-content">
-                        <ul class="menu">
-                            <li class="first leaf"><a href="https://www.koegebib.dk/covid-19"
-                                    title="Retningslinjer for biblioteket under covid-19"
-                                    class="menu-item"><span>Covid-19</span></a></li>
-                            <li class="leaf"><a href="/biblioteker" title="Find dit lokale bibliotek"
-                                    class="menu-item"><span>Adresser &amp; åbningstider</span></a></li>
-                            <li class="leaf"><a href="https://www.koegebib.dk/biblioteket-kommer"
-                                    title="Biblioteket kommer" class="menu-item"><span>Biblioteket kommer</span></a>
-                            </li>
-                            <li class="leaf"><a href="/bliv-laaner"
-                                    title="Det er gratis at blive oprettet som låner på biblioteket"
-                                    class="menu-item"><span>Bliv låner</span></a></li>
-                            <li class="leaf"><a href="/boedetakster" title="Det koster penge at overskride lånetiden"
-                                    class="menu-item"><span>Bødetakster</span></a></li>
-                            <li class="leaf"><a href="https://www.koegebib.dk/was" title="Erklæring om tilgængelighed"
-                                    class="menu-item"><span>Erklæring om
-                                        tilgængelighed</span></a></li>
-                            <li class="leaf"><a href="/nyhedsbrev"
-                                    title="Få en mail med nyheder om arrangementer, inspiration til gode oplevelser og vigtig information om, hvad der sker på dit bibliotek"
-                                    class="menu-item"><span>Nyhedsbrev</span></a></li>
-                            <li class="leaf"><a href="https://www.koegebib.dk/bibliotek/koege-bibliotek/personale"
-                                    title="Kontaktinformation til medarbejderne"
-                                    class="menu-item"><span>Personale</span></a></li>
-                            <li class="leaf"><a href="/reglement" title="Alle er velkomne til at bruge biblioteket"
-                                    class="menu-item"><span>Reglement</span></a></li>
-                            <li class="leaf"><a href="/virksomhed" title="Læs om vores projekter og mål"
-                                    class="menu-item"><span>Virksomhed</span></a></li>
-                            <li class="last leaf"><a href="https://www.koegebib.dk/ledige-stillinger"
-                                    title="Ledige stillinger" class="menu-item"><span>Ledige stillinger</span></a>
-                            </li>
-                        </ul>
-                    </div>
-
-
-                </div>
-            </div>
-            <div class="panel-pane pane-block pane-block-1">
-                <div class="panel-pane-inner">
-
-                    <h2 class="pane-title">Kontakt</h2>
-
-
-                    <div class="pane-content">
-                        <p>KøgeBibliotekerne<br>Kirkestræde 18<br>4600 Køge<br><br>Telefon: 56 67 28 00</p>
-                        <p>Mail: <a href="mailto:koegebib@koege.dk">koegebib@koege.dk</a><br><br>EAN: 579 800 776
-                            5729</p>
-                        <p>&nbsp;</p>
-                        <p>
-                        </p>
-                        <p>&nbsp;</p>
-                    </div>
-
-
+                        <label for="subject">Subject</label>
+                        <textarea name="subject" id="subject" placeholder="Write your subject here.." cols="30"
+                            rows="10"></textarea>
+                        <input type="submit" value="Submit">
+                    </form>
                 </div>
             </div>
         </div>
-    </footer>
-    
+
+        <section class="laering-titel">
+            <h2>Studerende</h2>
+        </section>
+
+        <section class="laering-content">
+
+            <div>
+                <a href="#udskoling"><img src="./img/laering-udskoling.jpg" alt=""></a>
+                <h3>Udskoling</h3>
+                <p>Folkeskolens ældste klasser</p>
+            </div>
+
+            <div>
+                <a href="#ungdom"><img src="./img/laering-ungdoms.jpg" alt=""></a>
+                <h3>Gymnasiale Uddannelser</h3>
+            </div>
+
+            <div>
+                <a href=""><img src="./img/laering-vidregaaende.jpg" alt=""></a>
+                <h3>Vidregående Uddannelser</h3>
+            </div>
+
+            <div>
+                <a href=""><img src="./img/laering-kursus.jpg" alt=""></a>
+                <h3>Diverse Kurser</h3>
+            </div>
+
+        </section>
+
+        <footer class="footer">
+            <div class="footer-inner">
+                <div class="panel-pane pane-block pane-menu-menu-footer-menu-1 attachment-first">
+                    <div class="panel-pane-inner">
+
+                        <h2 class="pane-title">Det kan du på biblioteket</h2>
+
+                        <div class="pane-content">
+                            <ul class="menu">
+                                <li class="first leaf"><a href="https://www.koegebib.dk/aflevere-efter-lukketid"
+                                        title="Aflevere efter lukketid" class="menu-item"><span>Aflevere efter
+                                            lukketid</span></a></li>
+                                <li class="leaf"><a
+                                        href="https://www.koegebib.dk/nyheder/skoenlitteratur/bestil-boeger-til-din-laeseklub"
+                                        title="Bestil bøger til din læseklub" class="menu-item"><span>Bestille bøger til
+                                            din læseklub</span></a></li>
+                                <li class="leaf"><a href="https://www.koegebib.dk/lokalhistorisk-arkiv"
+                                        title="Besøge Lokalhistorisk Arkiv" class="menu-item"><span>Besøge
+                                            Lokalhistorisk Arkiv</span></a></li>
+                                <li class="leaf"><a href="/moedelokale"
+                                        title="På bibliotekerne i Borup og Herfølge kan du låne et mødelokale"
+                                        class="menu-item"><span>Booke et mødelokale</span></a></li>
+                                <li class="leaf"><a href="/computer-internet"
+                                        title="Du kan reservere en computer til brug i en halv til hel time pr. dag på bibliotekerne i Borup, Herfølge og Køge"
+                                        class="menu-item"><span>Bruge en computer</span></a></li>
+                                <li class="leaf"><a href="/borgerservice-light"
+                                        title="Hos Borgerservice Light på Borup Bibliotek kan du forny dit pas og kørekort"
+                                        class="menu-item"><span>Forny pas og kørekort</span></a></li>
+                                <li class="leaf"><a href="/print-og-scanner"
+                                        title="Mod et mindre beløb kan du printe og scanne dokumenter på bibliotekerne i Borup, Herfølge og Køge"
+                                        class="menu-item"><span>Printe og scanne</span></a></li>
+                                <li class="leaf"><a href="/borgerservice-light"
+                                        title="På Borup Bibliotek kan du købe fiskekort til Kimmerslev Sø og Dalby Sø"
+                                        class="menu-item"><span>Købe fiskekort</span></a></li>
+                                <li class="leaf"><a href="/traadloest-netvaerk"
+                                        title="Der er wi-fi på bibliotekerne i Borup, Herfølge og Køge"
+                                        class="menu-item"><span>Logge på trådløst netværk</span></a></li>
+                                <li class="leaf"><a href="/node/2501"
+                                        title="Du kan låne bibliotekets lokaler til et arrangement eller møde"
+                                        class="menu-item"><span>Låne dit bibliotek</span></a></li>
+                                <li class="leaf"><a href="/selvbetjent-bibliotek"
+                                        title="Bibliotekerne i Borup og Herfølge har åben for selvbetjening kl. 7-23 alle ugens dage"
+                                        class="menu-item"><span>Låse dig ind morgen og aften</span></a></li>
+                                <li class="last leaf"><a href="https://www.koegebib.dk/folkelab"
+                                        title="Nye aktiviteter på biblioteket" class="menu-item"><span>Prøve idéer af i
+                                            Folkelab</span></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="panel-pane pane-block pane-menu-menu-footer-menu-2 attachment-second">
+                    <div class="panel-pane-inner">
+
+                        <h2 class="pane-title">Det kan du hjemmefra</h2>
+
+                        <div class="pane-content">
+                            <ul class="menu">
+                                <li class="first leaf"><a href="https://bibliotek.dk/da"
+                                        title="Prøv bibliotek.dk, hvis KøgeBibliotekerne ikke har, hvad du søger"
+                                        class="menu-item"><span>Bestille fra andre biblioteker</span></a></li>
+                                <li class="leaf"><a href="/boedetakster"
+                                        title="Du kan betale dine bøder med Dankort via vores hjemmeside"
+                                        class="menu-item"><span>Betale bøder</span></a></li>
+                                <li class="leaf"><a
+                                        href="https://www.koegebib.dk/nyheder/nyt-om-biblioteket/du-kan-forny-dine-laan-7-dage-inden-afleveringsfristen-hvis"
+                                        title="Hvis materialet ikke er reserveret, kan du forlænge dit lån op til 2 gange"
+                                        class="menu-item"><span>Forny dine lån</span></a></li>
+                                <li class="leaf"><a href="/sms"
+                                        title="Du kan få en SMS eller mail et par dage inden, at du skal aflevere lånte materialer"
+                                        class="menu-item"><span>Få SMS/mail om aflevering</span></a></li>
+                                <li class="leaf"><a href="/hold-din-plads-i-koeen"
+                                        title="Er du forhindret i at komme på biblioteket, kan du sætte dine reserveringer i bero, så du undgår at komme bagerst i køen igen"
+                                        class="menu-item"><span>Holde din plads i køen</span></a></li>
+                                <li class="leaf"><a href="https://www.koegebib.dk/eboeger"
+                                        title="Du kan låne ebøger på både eReolen.dk, eBib.dk og Ebrary"
+                                        class="menu-item"><span>Låne e-bøger</span></a></li>
+                                <li class="leaf"><a href="https://www.koegebib.dk/nyt-paa-hylderne"
+                                        title="Reservere nye bøger m.m." class="menu-item"><span>Reservere nye bøger
+                                            m.m.</span></a></li>
+                                <li class="leaf"><a href="http://biblioteksvagten.dk/"
+                                        title="Få svar på konkrete spørgsmål om alt mellem himmel og jord."
+                                        class="menu-item"><span>Spørge Biblioteksvagten</span></a></li>
+                                <li class="last leaf"><a href="https://www.koegebib.dk/e-materialer"
+                                        title="Vi giver dig adgang til mange databaser, som du kan logge dig ind på hjemme ved din egen computer"
+                                        class="menu-item"><span>Søge i databaser</span></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="panel-pane pane-block pane-menu-menu-footer-menu-4 attachment-fourth">
+                    <div class="panel-pane-inner">
+
+                        <h2 class="pane-title">Praktisk information</h2>
+
+                        <div class="pane-content">
+                            <ul class="menu">
+                                <li class="first leaf"><a href="https://www.koegebib.dk/covid-19"
+                                        title="Retningslinjer for biblioteket under covid-19"
+                                        class="menu-item"><span>Covid-19</span></a></li>
+                                <li class="leaf"><a href="/biblioteker" title="Find dit lokale bibliotek"
+                                        class="menu-item"><span>Adresser &amp; åbningstider</span></a></li>
+                                <li class="leaf"><a href="https://www.koegebib.dk/biblioteket-kommer"
+                                        title="Biblioteket kommer" class="menu-item"><span>Biblioteket kommer</span></a>
+                                </li>
+                                <li class="leaf"><a href="/bliv-laaner"
+                                        title="Det er gratis at blive oprettet som låner på biblioteket"
+                                        class="menu-item"><span>Bliv låner</span></a></li>
+                                <li class="leaf"><a href="/boedetakster"
+                                        title="Det koster penge at overskride lånetiden"
+                                        class="menu-item"><span>Bødetakster</span></a></li>
+                                <li class="leaf"><a href="https://www.koegebib.dk/was"
+                                        title="Erklæring om tilgængelighed" class="menu-item"><span>Erklæring om
+                                            tilgængelighed</span></a></li>
+                                <li class="leaf"><a href="/nyhedsbrev"
+                                        title="Få en mail med nyheder om arrangementer, inspiration til gode oplevelser og vigtig information om, hvad der sker på dit bibliotek"
+                                        class="menu-item"><span>Nyhedsbrev</span></a></li>
+                                <li class="leaf"><a href="https://www.koegebib.dk/bibliotek/koege-bibliotek/personale"
+                                        title="Kontaktinformation til medarbejderne"
+                                        class="menu-item"><span>Personale</span></a></li>
+                                <li class="leaf"><a href="/reglement" title="Alle er velkomne til at bruge biblioteket"
+                                        class="menu-item"><span>Reglement</span></a></li>
+                                <li class="leaf"><a href="/virksomhed" title="Læs om vores projekter og mål"
+                                        class="menu-item"><span>Virksomhed</span></a></li>
+                                <li class="last leaf"><a href="https://www.koegebib.dk/ledige-stillinger"
+                                        title="Ledige stillinger" class="menu-item"><span>Ledige stillinger</span></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="panel-pane pane-block pane-block-1">
+                    <div class="panel-pane-inner">
+
+                        <h2 class="pane-title">Kontakt</h2>
+
+                        <div class="pane-content">
+                            <p>KøgeBibliotekerne<br>Kirkestræde 18<br>4600 Køge<br><br>Telefon: 56 67 28 00</p>
+                            <p>Mail: <a href="mailto:koegebib@koege.dk">koegebib@koege.dk</a><br><br>EAN: 579 800 776
+                                5729</p>
+                            <p>&nbsp;</p>
+                            <p>
+                            </p>
+                            <p>&nbsp;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
 </body>
+
 </html>
