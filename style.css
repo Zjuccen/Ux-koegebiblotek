@@ -315,7 +315,118 @@ label {
         border: none;
     }
 
-.arrangementer {
-    margin: 40px 150px;
+    .arrangementer {
+        margin: 40px 150px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .arrangement-content img{
+        width: 300px;
+        height: 300px;
+        padding: 10px;
+    }
+
+    .eboeger-top{
+        display: flex;
+        flex-direction: column;
+        margin-top: 200px;
+        justify-content: center;
+        align-content: center;
+        margin-left: 175px;
+        margin-right: 175px;
+        padding-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .eboeger-top img {
+        height: 300px;
+        width: 100%;
+    }
+    
+    .kategorier {
+        display: flex;
+        justify-content: center;
+        padding: 0px 175px;
+        flex-wrap: wrap;
+        row-gap: 2px;
+        column-gap: 2px;
+        margin: 30px 0;
+    }
+    
+    .kategorier a{
+        background-color: #79BA00;
+        padding: 20px 40px;
+        color: #000000;
+        text-decoration: none;
+    }
+        
+
+
+
+
+
+
+
+    /* ----- Footer start ----- */
+
+footer {
+    height: 340px;
 }
+
+footer h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul.menu {
+    border: none;
+    list-style: none;
+    text-align: left;
+}
+
+.footer {
+    background-color: #262626;
+    color: #ffffff;
+}
+.footer-inner {
+    max-width: 1124px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding: 50px 0;
+}
+
+.footer-inner>.panel-pane:nth-child(4n+1) {
+    clear: left;
+}
+
+.footer-inner>.panel-pane {
+    float: left;
+    display: block;
+    margin-right: 2.4911%;
+    width: 23.13167%;
+}
+
+.footer-inner>.panel-pane .pane-content ul {
+    display: block;
+}
+
+.footer-inner>.panel-pane .pane-title {
+    font-family: FaktPro-SemiBold,sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    pointer-events: none;
+}
+
+.footer-inner>.panel-pane:nth-child(4n) {
+    margin-right: 0;
+}
+
+/* ----- Footer stop ----- */
 
