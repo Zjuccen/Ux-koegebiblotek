@@ -267,7 +267,7 @@ textarea {
 
 input[type=submit] {
     font-size: 16px;
-    background-color: #195796;
+    background-color: #79BA00;
     color: #000;
     padding: 12px 40px;
     border: none;
@@ -276,7 +276,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #79BA00;
+    background-color: #538000;
 }
 
 .contakt-container {
